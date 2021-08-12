@@ -6,4 +6,6 @@ string1 = input('Enter first string')
 number1 = int(input('Enter first number'))
 string2 = input('Enter second string')
 number2 = int(input('Enter second number'))
-print(string1, number1, string2, number2)
+number3 = float(input('Enter third number'))
+print(string1, number1, string2, number2, number3)
+
