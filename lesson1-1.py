@@ -8,4 +8,3 @@ string2 = input('Enter second string')
 number2 = int(input('Enter second number'))
 number3 = float(input('Enter third number'))
 print(string1, number1, string2, number2, number3)
-
