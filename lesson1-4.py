@@ -1,11 +1,9 @@
-n = abs(int(input("Enter a positive integer ")))
-m = n % 10
-while n >= 1:
+n = int(input("Enter a positive integer "))
+max = 0
+while n > 0:
+    if n % 10 > max:
+        max = n % 10
+        if max == 9:
+            break
     n = n // 10
-    if n % 10 > m:
-        m = n % 10
-    if n > 9:
-        continue
-    else:
-        print("Maximum digit in the number ", m)
-        break
+print(f'Max digit in number {max}')
